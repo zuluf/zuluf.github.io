@@ -1,0 +1,73 @@
+.background-size (@size) {
+	-webkit-background-size: @size;
+	   -moz-background-size: @size;
+	     -o-background-size: @size;
+	        background-size: @size;
+}
+
+.box-sizing (@size) {
+	-webkit-box-sizing: @size;
+	   -moz-box-sizing: @size;
+	     -o-box-sizing: @size;
+	        box-sizing: @size;
+}
+
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+       -o-border-radius: @radius;
+          border-radius: @radius;
+}
+
+.box-shadow (@string) {
+	-webkit-box-shadow: @string;
+	   -moz-box-shadow: @string;
+	     -o-box-shadow: @string;
+	        box-shadow: @string;
+}
+
+.transition (@transition) {
+	-webkit-transition: @transition;
+	   -moz-transition: @transition;
+	    -ms-transition: @transition;
+	     -o-transition: @transition;
+	        transition: @transition;
+}
+
+.transform (@transform) {
+	-webkit-transform: @transform;
+	   -moz-transform: @transform;
+	    -ms-transform: @transform;
+	     -o-transform: @transform;
+	        transform: @transform;
+}
+
+
+.transparent (@opacity) {
+	@multiply: (@opacity * 100);
+
+	-khtml-opacity: @opacity;
+	  -moz-opacity: @opacity;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@{multiply})";
+		   opacity: @opacity;
+			filter: alpha(opacity=@multiply);
+}
+
+.truncate {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.font-400 {
+	font-weight: 400;
+}
+
+.font-300 {
+	font-weight: 300;
+}
+
+.list-clear {
+	list-style: none!important;
+	padding: 10px 17px!important;
+}

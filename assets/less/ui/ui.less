@@ -1,0 +1,33 @@
+html {
+	font-family: @font-family;
+	font-size: @font-size;
+	font-weight: 300;
+	color: @font-light;
+	height: 100%;
+
+	body {
+		background: @green;
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		padding: 0;
+		margin: 0;
+	}
+
+	a, a:hover, a:visited {
+		font-size: 1em;
+		color: @font-light;
+		text-decoration: none;
+	}
+
+	i {
+		font-family: @icon-family;
+		color: @font-light;
+	}
+}
+
+@import "header.less";
+@import "main.less";
+@import "footer.less";
+@import "ie.less";
+@import "gears.less";
