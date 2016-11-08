@@ -3,9 +3,9 @@ AddType application/octet-stream .pdf
 <IfModule mod_headers.c>
 	<FilesMatch "\.(bmp|css|flv|gif|ico|jpg|jpeg|js|pdf|png|svg|swf|tif|tiff|woff)$">
 		Header unset ETag
-		Header set Last-Modified "Thu, 24 Sep 2015 09:16:01 GMT"
+		Header set Last-Modified "Tue, 08 Nov 2016 11:49:32 GMT"
 		Header set Cache-Control "public, max-age=31536000"
-		Header set Expires "Wed, 24 Aug 2016 09:16:01 GMT"
+		Header set Expires "Sun, 08 Oct 2017 10:49:32 GMT"
 	</FilesMatch>
 </IfModule>
 FileETag None
