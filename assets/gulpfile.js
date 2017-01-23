@@ -78,7 +78,7 @@
 	/**
 	 * Track changes and update dev scripts
 	 */
-	gulp.task('live', function() {
+	gulp.task('watch', function() {
 		gulp.watch('less/**/*.less', ['less']);
 		gulp.watch('scripts/**/*.js', ['contact']);
 	});
